@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="684.0" prefWidth="1005.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="24.0" layoutY="14.0" prefHeight="39.0" prefWidth="730.0" style="-fx-border-color: #d61524;; -fx-border-radius: 10px;" />
+      <Label fx:id="SR" layoutX="33.0" layoutY="13.0" prefHeight="39.0" prefWidth="104.0" text="Mittente:" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="116.0" prefHeight="39.0" prefWidth="74.0" text="Oggetto:" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="116.0" prefHeight="39.0" prefWidth="730.0" style="-fx-border-color: #d61524; -fx-border-radius: 10px;" />
+      <Label layoutX="24.0" layoutY="183.0" prefHeight="482.0" prefWidth="967.0" style="-fx-border-color: #d61524; -fx-border-radius: 10px;" />
+      <Label fx:id="data" layoutX="845.0" layoutY="635.0" prefHeight="30.0" prefWidth="146.0" style="-fx-border-radius: 10px; -fx-label-padding: 5px;" text="31-febbrario-2019 21:14" textAlignment="CENTER" />
+      <Label fx:id="oggetto" layoutX="143.0" layoutY="121.0" prefHeight="30.0" prefWidth="407.0" text="........" />
+      <Label fx:id="mittente" layoutX="144.0" layoutY="19.0" prefHeight="30.0" prefWidth="582.0" text="........" />
+      <TextArea fx:id="idTextArea" editable="false" layoutX="33.0" layoutY="191.0" prefHeight="440.0" prefWidth="947.0" style="-fx-border-radius: 3px;" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, &#10;nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, &#10;vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum &#10;semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. &#10;Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. &#10;Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, &#10;hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus &#10;tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna&#10; mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis&#10; hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arc&#10;Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. &#10;Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum.&#10; Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. &#10;Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere &#10;imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum &#10;ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. &#10;Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque &#10;posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a&#10;, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante&#10; ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis" wrapText="true" />
+      <Button layoutX="779.0" layoutY="19.0" mnemonicParsing="false" onAction="#replay" prefHeight="30.0" prefWidth="74.0" style="-fx-background-color: #d61524;" text="Rispondi" textFill="WHITE" />
+      <Button layoutX="874.0" layoutY="120.0" mnemonicParsing="false" onAction="#delete" prefHeight="30.0" prefWidth="74.0" style="-fx-background-color: #d61524;" text="Elimina" textFill="WHITE" />
+      <Button layoutX="779.0" layoutY="120.0" mnemonicParsing="false" onAction="#forwars" prefHeight="30.0" prefWidth="74.0" style="-fx-background-color: #d61524;" text="Inoltra" textFill="WHITE" />
+      <Label fx:id="destinatario" layoutX="143.0" layoutY="72.0" prefHeight="30.0" prefWidth="590.0" text="........" />
+      <Label layoutX="24.0" layoutY="67.0" prefHeight="39.0" prefWidth="730.0" style="-fx-border-color: #d61524; -fx-border-radius: 10px;" />
+      <Label layoutX="33.0" layoutY="67.0" prefHeight="39.0" prefWidth="97.0" text="Destinatari:" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="replayAll" layoutX="779.0" layoutY="71.0" mnemonicParsing="false" onAction="#replayAll" prefHeight="30.0" prefWidth="104.0" style="-fx-background-color: #d61524;" text="Rispondi a tutti" textFill="WHITE" />
+   </children>
+</AnchorPane>

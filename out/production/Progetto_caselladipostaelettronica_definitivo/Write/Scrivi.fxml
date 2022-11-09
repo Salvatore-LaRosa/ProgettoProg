@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TitledPane layoutY="368.0" prefHeight="202.0" prefWidth="727.0" text="Testo ricevuto">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <TextArea fx:id="Risposta" editable="false" layoutX="22.0" layoutY="18.0" prefHeight="147.0" prefWidth="682.0" />
+               </children></AnchorPane>
+         </content>
+      </TitledPane>
+      <TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="137.0" prefWidth="727.0" style="-fx-background-color: #d61524;" text="Scrivi mail">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="271.0" prefWidth="726.0">
+               <children>
+                  <TextField fx:id="Destinatario" layoutX="26.0" layoutY="21.0" prefHeight="26.0" prefWidth="500.0" promptText="Destinatario" />
+                  <TextField fx:id="Oggetto" layoutX="26.0" layoutY="59.0" prefHeight="26.0" prefWidth="500.0" promptText="Oggetto" />
+                  <Button layoutX="589.0" layoutY="31.0" mnemonicParsing="false" onAction="#InviaMail" prefHeight="49.0" prefWidth="107.0" style="-fx-background-color: #d61524; -fx-border-radius: 10px;" text="Invia" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="error" layoutX="164.0" layoutY="94.0" prefHeight="26.0" prefWidth="211.0" textFill="RED" />
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+      <TitledPane layoutY="137.0" prefHeight="235.0" prefWidth="727.0" style="-fx-background-color: #d61524;" text="Testo per la risposta">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <TextArea fx:id="CorpoMail" layoutX="21.0" layoutY="20.0" prefHeight="172.0" prefWidth="684.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+   </children>
+</Pane>

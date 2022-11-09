@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="806.0" style="-fx-background-color: 2D3039;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.Controller">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="126.0" prefWidth="806.0" style="-fx-background-color: #d61524;" AnchorPane.bottomAnchor="414.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label prefHeight="53.0" prefWidth="229.0" textAlignment="CENTER" textFill="#fffefe">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="54.0" prefWidth="162.0" text="Web Mail" textAlignment="CENTER" textFill="#fffefe">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Label layoutX="359.0" layoutY="158.0" text="Login">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      
+      <TextField id="email" fx:id="email" layoutX="264.0" layoutY="234.0" prefHeight="42.0" prefWidth="277.0" promptText=" Email address" style="-fx-border-color: #d61524;"/>
+      <TextField id="password" fx:id="password" layoutX="264.0" layoutY="310.0" prefHeight="42.0" prefWidth="277.0" promptText="password" style="-fx-border-color: #d61524;" />
+      <Button fx:id="login" layoutX="349.0" layoutY="375.0" mnemonicParsing="false" onAction="#loginRequest" prefHeight="53.0" prefWidth="108.0" style="-fx-background-color: #d61524;" text="Login" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="Error" layoutX="535.0" layoutY="479.0" prefHeight="42.0" prefWidth="241.0" textFill="RED" />
+   </children>
+</AnchorPane>
